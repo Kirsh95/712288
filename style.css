@@ -1,0 +1,967 @@
+.product__description .base-padding {
+    padding: 0;
+    border-radius: 0px;
+  }
+  .kivi img {
+    margin: 0;
+  }
+  .kivi p {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #202020;
+
+  }
+  .kivi h3 {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 130%;
+    color: #202020;
+    margin-bottom: 10px;
+  }
+
+  .kivi ul {
+    list-style: disc;
+    margin: 0;
+    padding-left: 20px;
+  }
+  .kivi ul li {
+    font-family: 'Roboto', sans-serif;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #FFFFFF;
+  }
+  .kivi {
+    overflow: hidden;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  /* .kivi ul {
+    padding: 0;
+  } */
+  .kivi ul li {
+    padding: 0;
+  }
+  .kivi div {
+    padding: 0;
+  }
+  div.kivi {
+    padding: 0;
+  }
+  .kivi br {
+    display: block;
+  }
+  .product__body .el-tabs__header {
+    z-index: 6;
+  }
+
+  .kivi{
+    max-width: 1366px;
+    overflow-x: hidden;
+  }
+  .kivi img{
+    width: 100%;
+    display: block;
+  }
+
+
+  /* more_content */
+
+  .kivi .more_content{
+    padding: 40px 16px;
+    display: grid;
+    gap: 20px;
+  }
+  .kivi .more_content .kivi_logo{
+    width:74px ;
+    margin: 0 auto;
+  }
+
+  .kivi .more_content .more_content_text_top{
+    text-align: center;
+  }
+  .kivi .more_content .more_content_text_top p{
+    font-size: 16px;
+  }
+
+
+  .kivi .more_content .more_content_text_bottom {
+    display: grid;
+    gap: 16px;
+  }
+
+
+@media screen and (min-width:666px) {
+
+    .kivi .more_content .kivi_logo{
+        width:74px ;
+        margin: 0 auto;
+        position: absolute;
+        top: 40px;
+        left: 32px;
+      }
+
+      .kivi .more_content{
+        padding: 40px 32px;
+        display: grid;
+        position: relative;
+      }
+      .kivi .more_content .more_content_text_top{
+        padding: 0 106px ;
+      }
+      .kivi .more_content .more_content_img{
+        padding: 0 57px;
+      }
+
+      .kivi .more_content .more_content_text_bottom{
+        grid-template-columns: 96px repeat(2,1fr);
+      }
+}
+
+@media screen and (min-width:1024px) {
+    .kivi p {
+        font-size: 16px;
+        line-height: 150%;
+      }
+      .kivi h3 {
+        font-size: 36px;
+        margin-bottom: 16px;
+        line-height: 120%;
+      }
+    
+      .kivi ul li {
+        font-size: 18px;
+        line-height: 150%;
+
+       
+      }
+      .kivi .more_content .more_content_text_top p{
+        font-size: 18px;
+      }
+      .kivi .more_content{
+        padding: 60px 40px;
+
+      }
+      .kivi .more_content .more_content_text_bottom{
+        grid-template-columns: 129px repeat(2,1fr);
+        gap: 24px;
+      }
+      .kivi .more_content .more_content_img{
+        padding: 0 77px;
+      }
+      .kivi .more_content .more_content_text_top{
+        padding: 0 150px;
+      }
+      .kivi .more_content .kivi_logo{
+        width: 98px;
+        top: 60px;
+        left: 40px;
+      }
+}
+@media screen and (min-width:1366px) {
+    .kivi p {
+        font-size: 20px;
+        line-height: 150%;
+      }
+      .kivi h3 {
+        font-size: 46px;
+        margin-bottom: 20px;
+        line-height: 120%;
+      }
+    
+      .kivi ul li {
+        font-size: 20px;
+        line-height: 150%;
+
+       
+      }
+      .kivi .more_content .more_content_text_top p{
+        font-size: 20px;
+      }
+      .kivi .more_content{
+        padding: 80px 60px;
+
+      }
+      .kivi .more_content .more_content_text_bottom{
+        grid-template-columns: 188px repeat(2,1fr);
+        gap: 24px;
+      }
+      .kivi .more_content .more_content_img{
+        padding: 0 106px;
+      }
+      .kivi .more_content .more_content_text_top{
+        padding: 0 318px;
+      }
+      .kivi .more_content .kivi_logo{
+        width: 136px;
+        top: 80px;
+        left: 60px;
+      }
+
+
+}
+  /* frameless */
+
+  .kivi .frameless{
+    background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/712288/Property%201%3Dmob.png?_t=1686647140");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 474px 16px 60px;
+  }
+
+  @media screen and (min-width:666px) {
+    .kivi .frameless{
+        background-image: url("https://i.citrus.world/uploads/content/product-photos/kirsh/712288/Property%201%3Dweb.png?_t=1686647140");
+        padding: 129px 479px 129px 32px;   
+    }
+  }
+@media screen and (min-width:1024px) {
+    .kivi .frameless{
+        padding: 171px 6535x 171px 40px;   
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .kivi .frameless{
+        padding: 276px 904px 276px 63px;   
+    }
+
+
+}
+
+
+
+  /* metal_stands */
+
+ .kivi .metal_stands{
+    display: grid;
+    gap: 24px;
+ }
+
+ .kivi .metal_stands .metal_stands_text{
+    padding: 0 16px 0;
+ }
+
+
+ @media screen and (min-width:666px) {
+    .kivi .metal_stands{
+        grid-template-columns: 51% 49%;
+        align-items: center;
+        gap: 0;
+
+    }
+    .kivi .metal_stands .metal_stands_text{
+        padding: 0;
+        padding-right: 32px;
+    }
+ }
+
+@media screen and (min-width:1024px) {
+    .kivi .metal_stands{
+        grid-template-columns: 51% 49%;
+        align-items: center;
+        gap: 0;
+    }
+    .kivi .metal_stands .metal_stands_text{
+        padding: 0;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+
+    .kivi .metal_stands .metal_stands_text{
+        padding-right: 60px;
+    }
+    .kivi .metal_stands{
+        grid-template-columns: 51% 49%;
+
+    }
+
+}
+
+ /* clear_image */
+
+ .kivi .clear_image{
+    padding: 40px 16px 0;
+    display: grid;
+    gap: 24px;
+ }
+
+ .kivi .clear_image .big_text{
+    font-size: 16px;
+ }
+
+
+ @media screen and (min-width:666px) {
+    .kivi .clear_image{
+        grid-template-columns: repeat(2,1fr);
+        gap: 16px;
+        align-items: center;
+        padding: 40px 32px 0;
+
+    }
+ }
+
+@media screen and (min-width:1024px) {
+
+    .kivi .clear_image{
+        grid-template-columns: repeat(2,1fr);
+        gap: 24px;
+        align-items: center;
+        padding: 60px 40px 0;
+
+    }
+    .kivi .clear_image .big_text{
+        font-size: 18px;
+     }
+}
+
+@media screen and (min-width:1366px) {
+    .kivi .clear_image{
+        padding: 80px 60px 0;
+    }
+
+}
+
+
+ /* contrast */
+
+ .kivi .contrast{
+    padding: 40px 16px ;
+    display: grid;
+    gap: 24px;
+ }
+
+ @media screen and (min-width:666px) {
+    .kivi .contrast{
+        grid-template-columns: repeat(2,1fr);
+        gap: 16px;
+        align-items: center;
+        padding: 40px 32px 0;
+
+    }
+
+    .kivi .contrast .contrast_text{
+        padding-right: 16px;
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+ }
+
+@media screen and (min-width:1024px) {
+    .kivi .contrast{
+        grid-template-columns: repeat(2,1fr);
+        gap: 24px;
+        align-items: center;
+        padding: 60px 40px 0;
+
+    }
+}
+@media screen and (min-width:1366px) {
+    .kivi .contrast{
+        padding: 80px 60px 0;
+    }
+    .kivi .contrast .contrast_text{
+        padding-right: 0;
+    }
+}
+
+
+
+
+ /* excellent_sound */
+
+ .kivi .excellent_sound .excellent_sound_text{
+    padding: 0 16px 40px;
+ }
+
+ .kivi .excellent_sound .excellent_sound_text .excellent_sound_block .logo_jvc{
+    width: 63px;  
+ }
+
+ .kivi .excellent_sound .excellent_sound_text .excellent_sound_block{
+    display: flex;
+    align-items: center;
+    flex: 6px;
+    margin-top: 10px;
+ }
+
+ @media screen and (min-width:666px) {
+    .kivi .excellent_sound{
+        display: grid;
+        grid-template-columns: 51% 49%;
+        align-items: center;
+        padding: 40px 32px 40px 0;
+    }
+    .kivi .excellent_sound .excellent_sound_text{
+        padding: 0;
+    }
+ }
+@media screen and (min-width:1024px) {
+    .kivi .excellent_sound{
+        display: grid;
+        grid-template-columns: 53% 47%;
+        align-items: center;
+        padding: 60px 60px 60px 0;
+    }
+    .kivi .excellent_sound .excellent_sound_text .excellent_sound_block .logo_jvc{
+        width: 68px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .kivi .excellent_sound{
+        padding: 80px 60px 80px 0;
+        grid-template-columns: 53% 47%;
+
+    }
+    .kivi .excellent_sound .big_text{
+        font-size: 24px;
+    }
+    .kivi .excellent_sound .excellent_sound_text .excellent_sound_block{
+        margin-top: 20px;
+    }
+    .kivi .excellent_sound .excellent_sound_text .excellent_sound_block .logo_jvc{
+        width: 98px;
+    }
+
+
+
+}
+
+
+ /* android_tv */
+
+
+ .kivi .android_tv{
+    padding: 40px 16px;
+    display: grid;
+    gap: 24px;
+ }
+
+ .kivi .android_tv .android_tv_top{
+    text-align: center;
+ }
+
+ .kivi .android_tv .android_tv_block_top,
+ .kivi .android_tv .android_tv_block_bottom{
+    display: grid;
+    gap: 16px;
+ }
+
+ .kivi .android_tv .red_line{
+    color: #FFFFFF;
+    padding-left: 10px;
+    position: relative;
+    font-weight: 600;
+ }
+
+ .kivi .android_tv .red_line::after{
+    position: absolute;
+    top: 0;
+    content: "";
+    width: 2px;
+    height: 100%;
+    border-radius: 5.27086px;
+    left: 0;
+    background:linear-gradient(180deg, #E3713F 0%, #E93A47 100%); ;
+ }
+ .kivi .android_tv .android_tv_block{
+    display: grid;
+    gap: 24px;
+ }
+
+
+
+ @media screen and (min-width:666px) {
+    .kivi .android_tv{
+        padding: 40px 32px;
+    }
+    .kivi .android_tv .android_tv_top{
+        padding: 0 5px;
+    }
+
+     .kivi .android_tv .android_tv_block{
+        grid-template-columns: 1fr 2fr 1fr;
+        align-items: center;
+    }
+    .kivi .android_tv .android_tv_block_bottom{
+        padding-right: 10px;
+    }
+
+ }
+
+@media screen and (min-width:1024px) {
+    .kivi .android_tv{
+        padding: 60px 40px;
+    }
+    .kivi .android_tv .android_tv_top{
+        padding: 0 48px;
+    }
+
+     .kivi .android_tv .android_tv_block{
+        grid-template-columns: 1fr 2fr 1fr;
+        align-items: center;
+    }
+    .kivi .android_tv .android_tv_block_bottom{
+        padding-right: 40px;
+    }
+    .kivi .android_tv .red_line{
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (min-width:1366px) {
+    .kivi .android_tv{
+        padding: 80px 60px;
+        gap: 40px;
+    }
+    .kivi .android_tv .android_tv_top{
+        padding: 0 106px;
+    }
+    
+
+
+    .kivi .android_tv .android_tv_block_top,
+     .kivi .android_tv .android_tv_block_bottom{
+        gap: 40px;
+     }
+     .kivi .android_tv .red_line{
+        font-size: 24px;
+        padding-left: 24px;
+     }
+
+     .kivi .android_tv .red_line::after{
+        width: 6px;
+        border-radius: 10px;
+     }
+
+     .kivi .android_tv .android_tv_block_bottom{
+        padding-right: 100px;
+     }
+
+}
+
+
+ /* kivi_media */
+
+ .kivi .kivi_media{
+    text-align: center;
+    padding: 40px 16px;
+ }
+
+
+ @media screen and (min-width:666px) {
+    .kivi .kivi_media{
+        padding: 40px 32px;
+    }
+    .kivi .kivi_media h3{
+        padding: 0 66px;
+    }
+
+ }
+
+@media screen and (min-width:1024px) {
+
+    .kivi .kivi_media{
+        padding: 60px 142px;
+    }
+    .kivi .kivi_media h3{
+        padding:0;
+    }
+
+}
+
+@media screen and (min-width:1366px) {
+
+
+    .kivi .kivi_media{
+        padding: 80px 226px;
+    }
+    .kivi .kivi_media p{
+        padding:0 53px;
+    }
+
+
+
+}
+
+ /* free_access */
+
+ .kivi .free_access{
+    background:#F4F4F4;
+    padding: 40px 0 40px 16px;
+
+ }
+
+ .kivi .free_access .free_access_text{
+    padding-right: 16px;
+ }
+ .kivi .free_access br{
+    display: none;
+ }
+
+ @media screen and (min-width:666px) {
+
+    .kivi .free_access{
+        display: grid;
+        padding: 20px 0 20px 32px;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        gap: 16px;
+    }
+ .kivi .free_access .free_access_text{
+        grid-column-start: 1;
+        grid-row-start: 1;
+        padding-right: 0;
+    }
+    .kivi .free_access br{
+        display: block;
+     }
+
+ }
+
+@media screen and (min-width:1024px) {
+    .kivi .free_access{
+        padding: 16px 0 16px 40px;
+        gap: 24px;
+
+    }
+}
+
+@media screen and (min-width:1366px) {
+
+
+    .kivi .free_access{
+        padding: 20px 0 20px 60px;
+
+    }
+    .kivi .free_access .free_access_text{
+        padding-right: 30px;
+    }
+
+}
+
+ /* fitness_section */
+
+
+ .kivi .fitness_section{
+    padding: 40px 16px 0;
+    text-align: center;
+    display: grid;
+    gap: 24px;
+ }
+ .kivi .fitness_section br{
+    display: none;
+ }
+
+ @media screen and (min-width:666px) {
+    .kivi .fitness_section{
+        padding: 40px 32px 0;
+    }
+
+    .kivi .fitness_section br{
+        display: block;
+     }
+ }
+@media screen and (min-width:1024px) {
+    .kivi .fitness_section{
+        padding: 60px 40px 0;
+        gap: 32px;
+    }
+    .kivi .fitness_section .fitness_section_text{
+        padding: 0 48px;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .kivi .fitness_section{
+        padding: 80px 60px 0;
+    }
+    .kivi .fitness_section .fitness_section_text{
+        padding: 0 166px;
+    }
+}
+
+
+
+ /* more_content */
+
+ .kivi .games_section{
+    padding: 40px 14px 0;
+    display: grid;
+    gap: 24px; 
+}
+
+@media screen and (min-width:666px) {
+    .kivi .games_section{
+        grid-template-columns: repeat(2,1fr);
+        gap: 16px;
+        padding: 40px 20px 0;
+        align-items: center;
+    }
+    .kivi .games_section img{
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .kivi .games_section{
+        padding: 60px 40px 0;
+        gap: 24px;
+    }
+}
+@media screen and (min-width:1366px) {
+    .kivi .games_section{
+        padding: 80px 60px 0;
+    }
+    .kivi .games_section .games_section_text{
+        padding-left: 12px;
+    }
+
+}
+
+
+/* play_together */
+
+
+.kivi .play_together{
+    padding: 40px 14px 0;
+    display: grid;
+    gap: 24px; 
+}
+
+@media screen and (min-width:666px) {
+    .kivi .play_together{
+        grid-template-columns: repeat(2,1fr);
+        gap: 16px;
+        padding: 40px 32px 0;
+        align-items: center;
+
+    }
+    .kivi .play_together_text{
+        padding-right: 16px;
+    }
+
+}
+@media screen and (min-width:1024px) {
+    .kivi .play_together{
+        padding: 75px 40px 0;
+    }
+}
+
+@media screen and (min-width:1366px) {
+
+    .kivi .play_together{
+        padding: 80px 60px 0;
+    }
+    .kivi .play_together_text{
+        padding-right: 0;
+    }
+
+}
+
+
+
+
+/* entertaining_content */
+
+
+.kivi .entertaining_content {
+    padding: 40px 16px 0;
+    display: grid;
+    gap: 24px;
+}
+
+.kivi .entertaining_content .logo_davinci {
+    width: 108px;
+    margin-bottom: 10px;
+
+}
+
+.kivi .entertaining_content .entertaining_content_text p {
+    padding-right: 10px;
+}
+
+@media screen and (min-width:666px) {
+    .kivi .entertaining_content {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 16px;
+        padding: 40px 32px 0;
+    }
+    .kivi .entertaining_content .entertaining_content_text {
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .kivi .entertaining_content {
+        padding: 60px 40px 0;
+    }
+.kivi .entertaining_content .logo_davinci {
+    width: 148px;
+    margin-bottom: 16px;
+}
+
+}
+
+@media screen and (min-width:1366px) {
+
+    .kivi .entertaining_content {
+        padding: 80px 60px 0;
+        gap: 12px;
+    }
+    .kivi .entertaining_content .entertaining_content_text {
+        padding-left: 0
+
+    }
+    .kivi .entertaining_content .logo_davinci{
+        width:197px ;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+
+/* high_quality */
+
+.kivi .high_quality {
+    padding: 40px 16px 0;
+    display: grid;
+    gap: 24px;
+}
+
+.kivi .high_quality .high_quality_text {
+    padding-right: 8px;
+
+}
+
+@media screen and (min-width:666px) {
+    .kivi .high_quality {
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        padding: 40px 32px 0;
+    }
+}
+@media screen and (min-width:1024px) {
+    .kivi .high_quality {
+        padding: 60px 40px 0;
+    }
+
+}
+
+@media screen and (min-width:1366px) {
+    .kivi .high_quality {
+        padding: 80px 60px 0;
+    }
+
+}
+
+
+
+
+
+/* customer_support */
+
+
+.kivi .customer_support{
+    padding: 40px 16px 0;
+    display: grid;
+    gap: 24px;
+}
+
+.kivi .customer_support .customer_support_icons{
+    display: grid;
+    grid-template-columns: 52% 43%;
+    gap: 16px;
+}
+
+.kivi .customer_support .customer_support_text{
+    display: grid;
+    gap:10px ;
+}
+
+.kivi .customer_support .customer_support_icons .icons_block{
+    display: grid;
+    grid-template-columns:auto 1fr;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.kivi .customer_support .customer_support_icons .icons_block img{
+    width: 26px;
+}
+.kivi .customer_support .customer_support_icons .icons_block h3{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom:0 ;
+}
+
+
+@media screen and (min-width:666px) {
+    .kivi .customer_support{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        gap: 0;
+    }
+    .kivi .customer_support .customer_support_text{
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+    .kivi .customer_support .customer_support_icons{
+        grid-template-columns: 49% 41%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .kivi .customer_support{
+        padding: 60px 40px 0 0px;
+        grid-template-columns:53% 47%
+
+    }
+    .kivi .customer_support .customer_support_icons{
+        grid-template-columns: 50% 50%;
+        gap: 0;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .kivi .customer_support{
+        padding: 0 166px 0 0px;
+
+    }
+    .kivi .customer_support .customer_support_icons{
+        grid-template-columns: 50% 50%;
+        gap: 0;
+    }
+    .kivi .customer_support .customer_support_icons .icons_block img{
+        width: 48px;
+    }
+    .kivi .customer_support .customer_support_icons .icons_block h3{
+        font-size: 24px;
+    }
+
+    .kivi .customer_support .customer_support_icons .icons_block{
+        justify-content: start;
+    }
+}
